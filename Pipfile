@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+requests = "*"
+dj-database-url = "*"
+django-extensions = "*"
+django-postgres-createdb = "*"
+psycopg2 = "*"
+pyjwt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
